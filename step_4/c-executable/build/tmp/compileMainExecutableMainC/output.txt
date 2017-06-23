@@ -1,0 +1,4 @@
+See file:///Users/geek/Documents/gradle_basic/step_4/c-executable/build/tmp/compileMainExecutableMainC/output.txt for all output for compileMainExecutableMainC.
+compiling main.c successful.
+
+Finished compileMainExecutableMainC, see full log file:///Users/geek/Documents/gradle_basic/step_4/c-executable/build/tmp/compileMainExecutableMainC/output.txt.

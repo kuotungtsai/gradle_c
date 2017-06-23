@@ -1,0 +1,6 @@
+-x
+c
+-c
+-I
+/Users/geek/Documents/gradle_basic/step_1/c-executable/src/main/headers
+-m64

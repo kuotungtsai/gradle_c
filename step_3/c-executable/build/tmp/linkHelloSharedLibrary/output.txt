@@ -1,0 +1,4 @@
+See file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/linkHelloSharedLibrary/output.txt for all output for linkHelloSharedLibrary.
+linking libhello.dylib successful.
+
+Finished linkHelloSharedLibrary, see full log file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/linkHelloSharedLibrary/output.txt.

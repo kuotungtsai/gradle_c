@@ -1,0 +1,6 @@
+-shared
+-Wl,-install_name,libhello.dylib
+-o
+/Users/geek/Documents/gradle_basic/step_3/c-executable/build/libs/hello/shared/libhello.dylib
+/Users/geek/Documents/gradle_basic/step_3/c-executable/build/objs/hello/shared/helloC/46gd7i53yh3z9kv2bj1ure0t2/hello.o
+-m64

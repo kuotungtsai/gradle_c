@@ -1,0 +1,52 @@
+apply plugin : 'c' 
+/*
+model { 
+    components {
+        main(NativeExecutableSpec) 
+    }
+}
+*/
+
+// model { 
+//     components {
+//         main(NativeExecutableSpec) {
+//         	sources {
+//         		c {
+//         			source {
+//         				srcDirs "src"
+//         				include "**/*.c"
+//         			}
+//         		}
+//         	}
+//         }
+//     }
+// }
+
+model { 
+    components {
+        main(NativeExecutableSpec) {
+            sources {
+                 c {
+                     source {
+                         srcDirs "src/main/c"
+                         include "**/*.c"
+                     }
+                 }
+            }
+            binaries.all {
+                lib library: 'hello', linkage: 'static'
+                // Each executable binary produced uses the 'hello' static library binary
+            }
+        }
+        hello(NativeLibrarySpec) {
+            sources {
+                 c {
+                     source {
+                         srcDirs "src/hello/c"
+                         include "**/*.c"
+                     }
+                 }
+            }
+        }
+    }
+}

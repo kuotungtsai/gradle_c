@@ -1,0 +1,4 @@
+See file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/compileHelloStaticLibraryHelloC/output.txt for all output for compileHelloStaticLibraryHelloC.
+compiling hello.c successful.
+
+Finished compileHelloStaticLibraryHelloC, see full log file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/compileHelloStaticLibraryHelloC/output.txt.

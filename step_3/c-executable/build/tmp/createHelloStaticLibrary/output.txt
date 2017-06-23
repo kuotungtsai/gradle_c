@@ -1,0 +1,4 @@
+See file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/createHelloStaticLibrary/output.txt for all output for createHelloStaticLibrary.
+archiving libhello.a successful.
+
+Finished createHelloStaticLibrary, see full log file:///Users/geek/Documents/gradle_basic/step_3/c-executable/build/tmp/createHelloStaticLibrary/output.txt.

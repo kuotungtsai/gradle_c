@@ -1,0 +1,7 @@
+-x
+c
+-c
+-fPIC
+-I
+/Users/geek/Documents/gradle_basic/step_3/c-executable/src/hello/headers
+-m64

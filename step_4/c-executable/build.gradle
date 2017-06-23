@@ -1,0 +1,30 @@
+apply plugin : 'c' 
+
+model { 
+    repositories {
+        lib(PrebuiltLibraries) {
+            hello {
+                // headers.srcDir "3rd-party-lib/util/src/util/headers"
+                binaries.withType(StaticLibraryBinary) {
+                    staticLibraryFile = file("libs/hello/static/libhello.a")
+                }
+            }
+        }
+	}
+    components {
+        main(NativeExecutableSpec) {
+            sources {
+                 c {
+                     source {
+                         srcDirs "src/main/c"
+                         include "**/*.c"
+                     }
+                 }
+            }
+            binaries.all {
+                lib library: 'hello', linkage: 'static'
+                // Each executable binary produced uses the 'hello' static library binary
+            }
+        }
+    }
+}

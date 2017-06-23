@@ -1,0 +1,5 @@
+-o
+/Users/geek/Documents/gradle_basic/step_1/c-executable/build/exe/main/main
+/Users/geek/Documents/gradle_basic/step_1/c-executable/build/objs/main/mainC/dey3oyi6y0a9luwot945rff8j/main.o
+/Users/geek/Documents/gradle_basic/step_1/c-executable/build/objs/main/mainC/dh2v4xzfq3sq40pq14y0oo6jh/greeting.o
+-m64
